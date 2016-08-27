@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    dotenv (2.1.1)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    mediumite (0.1.1)
+      sawyer
+    multipart-post (2.0.0)
+    rake (11.2.2)
+    sawyer (0.7.0)
+      addressable (>= 2.3.5, < 2.5)
+      faraday (~> 0.8, < 0.10)
+    stringex (2.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  mediumite
+  rake
+  stringex
+
+BUNDLED WITH
+   1.12.5
